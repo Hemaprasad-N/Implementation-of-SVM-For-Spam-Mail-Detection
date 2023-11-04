@@ -21,10 +21,6 @@ Program to implement the SVM For Spam Mail Detection..
 Developed by: HEMAPRASAD N
 RegisterNumber: 212222040054
 */
-/*
-Program to implement the SVM For Spam Mail Detection..
-Developed by: L.Mahesh Muthu
-RegisterNumber: 212222040093
 
 import pandas as pd
 data=pd.read_csv("spam.csv",encoding='latin-1')
@@ -63,7 +59,6 @@ y_pred
 from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
-*/
 ```
 
 ## Output:
